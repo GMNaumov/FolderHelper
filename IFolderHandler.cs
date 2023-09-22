@@ -8,6 +8,8 @@ namespace FolderHelper
 {
     internal interface IFolderHandler
     {
-        void CreateNewFolder(string folderName);
+        string CreateNewFolder(string folderName);
+
+        string CreateNewFolderInTemp(string folderName);
     }
 }

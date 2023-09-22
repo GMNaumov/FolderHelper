@@ -10,6 +10,8 @@ namespace FolderHelper
     {
         static void Main(string[] args)
         {
+            Solution solution = new Solution();
+            solution.CreateNewFolder("temp");
         }
     }
 }
